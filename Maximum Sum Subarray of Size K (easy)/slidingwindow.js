@@ -14,3 +14,7 @@ function max_sub_array_of_size_k(k, arr) {
     }
     return maxSum;
   }
+
+  //time complexity O(n)
+  //space complexity O(1)
+  //Language: javascript

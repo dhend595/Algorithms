@@ -12,3 +12,7 @@ const max_sub_array_of_size_k = function(k, arr) {
     }
     return sumCurrentLargest
   };
+
+  //time complexity O(n*k)
+  //space complexity O(1)
+  //language javascript
