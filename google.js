@@ -28,3 +28,8 @@ class WaterMark {
     acks (itemid) {
         this.buffer.push(itemid);
     }
+
+    get () {
+        return this.buffer.shift();
+    }
+}        
